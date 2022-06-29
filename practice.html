@@ -1,0 +1,168 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head><meta charset="UTF-8"> 
+<title>Document</title> 
+<link rel="stylesheet" href="./reset.css"> 
+<link rel="stylesheet" href="./nav.css">
+<link rel="stylesheet" href="./rside.css">
+<link rel="stylesheet" href="./lside.css">
+<style> 
+	body {
+		background: #efefef;
+	}
+	#main { 
+		width: 1100px; 
+		margin: 0px auto; 
+	}
+	#lside { 
+		width: 805px; 
+		float: left; 
+	}
+	#rside { 
+		width: 275px; 
+		float: right; 
+	}
+	#main:after{
+		content: "";
+		display: block;
+		height: 0px;
+		width: 0px;
+		clear: both;
+	}
+	header{
+		height: 150px;
+		background: white;
+	}
+	header div{
+		height: 75px;
+		width: 1100px;
+		margin: 0px auto;
+		padding: 40px;
+		/*background: pink;*/
+	}
+	header h1{
+		font: 45px/55px '微软雅黑','黑体','文泉驿正黑体',sans-serif;
+	}
+	header p{
+		color: rgb(153, 153, 153);
+		font: 15px/22.5px '微软雅黑','黑体','文泉驿正黑体',sans-serif;
+	}
+	footer { 
+		height: 65px;
+		background: #222222;
+		font: 17px/65px '微软雅黑','黑体','文泉驿正黑体',sans-serif;
+		color: white;
+		text-align: center;
+	} 
+	
+</style> 
+</head> 
+<body>
+	<header> 
+		<div>
+			<h1>李老师的blog</h1> 
+			<p>准备，准备，准备，然后顺其自然。</p> 
+		</div>
+	</header> 
+	<nav>
+		<ul>
+			<li><a href="#">全部</a></li>
+			<li><a href="#">咨询</a></li>
+			<li><a href="#">轻小说</a></li>
+			<li><a href="#">漫画</a></li>
+		</ul>
+
+	</nav>
+	<div id="main"> 
+		<div id="lside">
+			<article>
+				<h2><a href="afternoon.html">午后的街头</a></h2>
+				<div>
+					<span>
+						<time>2022-06-09</time>
+					</span>
+					by <span><a href="#">Kervin</a></span>
+					<span>
+						<a href="#">休闲</a>
+						<a href="#">时光</a>
+					</span>
+					<span><a href="#" id="comment">9条评论</a></span>
+				</div>
+				<p>
+					有时突然想说我爱你，<br>
+					有时突然慌张忧伤。<br>
+					<br>
+					像迷路的孩子，<br>
+					东张西望。<br>
+					<br>
+					伸出双手想抓住，时光像泥鳅一样。<br>
+				</p>
+			</article>
+			<article>
+				<h2><a href="#">午后的街头</a></h2>
+				<div>
+					<span>
+						<time>2022-06-09</time>
+					</span>
+					by <span><a href="#">Kervin</a></span>
+					<span>
+						<a href="#">休闲</a>
+						<a href="#">时光</a>
+					</span>
+					<span><a href="#" id="comment">9条评论</a></span>
+				</div>
+				<p>
+					有时突然想说我爱你，<br>
+					有时突然慌张忧伤。<br>
+					<br>
+					像迷路的孩子，<br>
+					东张西望。<br>
+					<br>
+					伸出双手想抓住，时光像泥鳅一样。<br>
+				</p>
+			</article>
+			<article>
+				<h2><a href="#">午后的街头</a></h2>
+				<div>
+					<span>
+						<time>2022-06-09</time>
+					</span>
+					by <span><a href="#">Kervin</a></span>
+					<span>
+						<a href="#">休闲</a>
+						<a href="#">时光</a>
+					</span>
+					<span><a href="#" id="comment">9条评论</a></span>
+				</div>
+				<p>
+					有时突然想说我爱你，<br>
+					有时突然慌张忧伤。<br>
+					<br>
+					像迷路的孩子，<br>
+					东张西望。<br>
+					<br>
+					伸出双手想抓住，时光像泥鳅一样。<br>
+				</p>
+			</article>
+		</div> 
+		<div id="rside">
+			<aside>
+				<form action="">
+					<input type='search' name="" id="">
+				</form>
+			</aside>
+			<aside>
+				<h4>分类目录</h4>
+				<ul>
+					<li><a href="#">分类目录1</a></li>
+					<li><a href="#">分类目录2</a></li>
+					<li><a href="#">分类目录3</a></li>
+					<li><a href="#">分类目录4</a></li>
+				</ul>
+			</aside>
+		</div>
+		
+	</div> 
+	<footer>Copyright &copy; 2022 · Kervin Reserved</footer> 
+</body> 
+</html>

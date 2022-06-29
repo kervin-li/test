@@ -1,0 +1,34 @@
+aside{
+	background: white;
+	margin-bottom: 20px;
+	padding: 40px;
+}
+
+aside form{
+	background: white;
+	box-sizing: border-box;
+}
+aside form input{
+	width: 195px;
+	height: 45px;
+}
+
+aside h4{
+	color: black;
+	font: 20px/30px '微软雅黑','黑体','文泉驿正黑体',sans-serif;
+	margin-bottom: 30px;
+}
+
+aside ul li a{
+	color: #2440b3;
+	font: 15px/21px '微软雅黑','黑体','文泉驿正黑体',sans-serif;
+}
+
+aside ul li a:hover{
+	color: black;
+	font: 15px/21px '微软雅黑','黑体','文泉驿正黑体',sans-serif;
+}
+
+aside ul li{
+	padding-bottom: 5px;
+}
